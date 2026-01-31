@@ -1,5 +1,4 @@
 (async () => {
-    // 1. Clear page and setup styling
     document.body.innerHTML = `
         <style>
             body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f0f12; color: #e0e0e0; padding: 30px; line-height: 1.6; }
@@ -12,7 +11,7 @@
             h1 { text-align: center; color: #fff; margin-bottom: 40px; }
             #output { max-width: 900px; margin: 0 auto; }
         </style>
-        <h1>Xsolla Intelligence Dashboard</h1>
+        <h1>PoC</h1>
         <div id="output">Initializing extraction...</div>
     `;
     
